@@ -9,11 +9,18 @@ module.exports = {
     module: {
         rules: [
             {
-                test: /\.js$/, //find file that matches this expression
+                test: /\.png$/, //find file that matches this expression
                 use: [
                     {
-                        loader: "babel-loader"
+                        loader: "file-loader"
                     },
+                    // {
+                    //     loader: 'image-webpack-loader',
+                    //     options: 
+                    //     {
+
+                    //     }
+                    // }
                 ]
             },
             // {

@@ -72,6 +72,9 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__foo_js__ = __webpack_require__(1);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__bar_cjs_js__ = __webpack_require__(2);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__bar_cjs_js___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1__bar_cjs_js__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__webpack_logo_png__ = __webpack_require__(3);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__webpack_logo_png___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2__webpack_logo_png__);
+
 
 
 
@@ -89,6 +92,12 @@ console.log(__WEBPACK_IMPORTED_MODULE_0__foo_js__["a" /* default */], __WEBPACK_
 /***/ (function(module, exports) {
 
 module.exports = 'bar';
+
+/***/ }),
+/* 3 */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "013c7c81bcf284a748b1bdf1671a03ba.png";
 
 /***/ })
 /******/ ]);
