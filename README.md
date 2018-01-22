@@ -27,3 +27,11 @@ Long story short, you can add dependencies in your code as you need them from ot
 Add 'watch': 'webpack --watch' to scripts in package.json to allow it to watch for changes to your files. Any change will trigger a new build.
 
 Run this using 'npm run-script watch'
+
+## Modules
+
+you can use loaders (like babel) to precompile code, optimize images, etc. These can be applied with an object containing the test (expression used to match files) and use (loaders to apply) properties.  You can also create your own custom loaders if needed. 
+
+## Plugins
+
+Plugins can be custom created or you can use many of the built-in webpack or NPM library plugins to lint, minify, etc your code prior to outputting your final js file.
