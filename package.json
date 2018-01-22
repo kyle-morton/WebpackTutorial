@@ -1,0 +1,24 @@
+{
+  "name": "webpack-tutorial",
+  "version": "1.0.0",
+  "description": "tutorial course at https://webpack.academy",
+  "main": "index.js",
+  "dependencies": {
+    "webpack": "^3.10.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "build": "webpack",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kylemorton5770/WebpackTutorial.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kylemorton5770/WebpackTutorial/issues"
+  },
+  "homepage": "https://github.com/kylemorton5770/WebpackTutorial#readme"
+}
