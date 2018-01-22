@@ -10,15 +10,35 @@ module.exports = {
         rules: [
             {
                 test: /\.js$/, //find file that matches this expression
-                use: "babel-loader"
-            },
-            {
-                test: /\.css$/,
-                use: [ //example of an array of loaders for given expression
-                    "style-loader",
-                    "css-loader"
+                use: [
+                    {
+                        loader: "babel-loader"
+                    },
                 ]
-            }
+            },
+            // {
+            //     test: /\.css$/,
+            //     use: [ //example of an array of loaders for given expression
+            //         {
+            //             loader: "style-loader"
+            //         },
+            //         {
+            //             loader: "css-loader"
+            //         }
+            //     ]
+            // },
+            // {
+            //     test: /\.jpeg$/,
+            //     use: [
+            //         {
+            //             loader: "url-loader",
+            //             options: {
+            //                 limit: 10000 //file size limited to 10KB
+            //             }
+            //         }
+                    
+            //     ]
+            // }
         ]
     }
 }
